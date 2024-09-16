@@ -1,4 +1,4 @@
-export default class Chat {
+export default class Anim {
     constructor(container) {
         this.container = container;
     }
@@ -14,7 +14,6 @@ export default class Chat {
             </div>
         `);
     }
-
     collapsible() {
         const btn = this.container.querySelector(".btn-collapsible");
         if (btn) {
